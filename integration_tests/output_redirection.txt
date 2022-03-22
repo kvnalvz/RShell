@@ -1,0 +1,7 @@
+echo hello > someTest.txt
+echo "this is a test" > someOtherTest.txt
+cat someTest.txt
+cat someOtherTest.txt
+echo "Append to file!" > someTest.txt
+cat someTest.txt
+exit

@@ -1,0 +1,4 @@
+((echo test1 && echo k) && (echo s && echo l))
+(ls && echo hi) || ((echo hi && echo bye) && cal)
+(ls && (echo a || echo d))
+exit

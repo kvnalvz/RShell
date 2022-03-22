@@ -1,0 +1,5 @@
+echo "this is a test in lowercase" > inputTest.txt
+echo "FILE:"
+cat inputTest.txt
+tr a-z A-Z < inputTest.txt
+exit

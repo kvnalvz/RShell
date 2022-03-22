@@ -1,0 +1,5 @@
+test -f ./names.txt && echo pass
+test -e ./names.txt && echo pass
+test -d ./ucr_cs && echo pass
+test ./ucr_cs.txt && echo pass
+exit

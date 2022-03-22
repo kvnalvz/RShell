@@ -1,0 +1,5 @@
+[ -e ./names.txt ] && echo pass
+[ -d ./header ] && echo pass
+[ ./names.txt ] && echo pass
+[ ./ucr ] && pass
+exit

@@ -1,0 +1,4 @@
+echo test1 || ls -a; cat some_file.txt && echo bye || echo bye1; echo last1
+echo test2 && cat something.txt; cat some_file.txt || echo bye2 || echo bye2; echo last2
+echo test3 && ls -a || cat some_file.txt || echo bye && echo bye3; echo last3
+exit

@@ -1,0 +1,5 @@
+test -e ./names.txt && echo pass
+test -f ./names && echo pass
+[ ./header ] && echo pass
+[ -d ./cs_class ] && echo pass
+exit

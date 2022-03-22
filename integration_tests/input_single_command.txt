@@ -1,0 +1,5 @@
+echo hi
+cat somefile.txt
+ls -a
+echo bye
+exit
